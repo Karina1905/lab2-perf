@@ -1,0 +1,7 @@
+bin/
+*.trace/
+results/*.stacks
+results/*.clean.folded
+results/*_powermetrics_raw.txt
+.DS_Store
+__pycache__/

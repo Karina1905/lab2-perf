@@ -1,0 +1,28 @@
+src/prog.cpp:28:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (float& x : v)
+    ^
+src/prog.cpp:33:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (int& x : v)
+    ^
+src/prog.cpp:45:13: remark: the cost-model indicates that vectorization is not beneficial [-Rpass-missed=loop-vectorize]
+            for (int k = 0; k < n; k++)
+            ^
+src/prog.cpp:45:13: remark: the cost-model indicates that interleaving is not beneficial [-Rpass-missed=loop-vectorize]
+src/prog.cpp:60:13: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+            for (int j = 0; j < n; j++)
+            ^
+src/prog.cpp:69:5: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+    for (size_t i = 0; i < n; i++)
+    ^
+src/prog.cpp:75:5: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+    for (int x : v)
+    ^
+src/prog.cpp:82:5: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+    for (float x : v)
+    ^
+src/prog.cpp:122:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (int r = 0; r < REPS; r++) saxpy(1.0001f, x, y);
+    ^
+src/prog.cpp:127:5: remark: loop not vectorized [-Rpass-missed=loop-vectorize]
+    for (int r = 0; r < REPS; r++) {
+    ^

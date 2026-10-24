@@ -1,0 +1,30 @@
+Sort by top of stack, same collapsed (when >= 5):
+        matmul_ikj(Matrix const&, Matrix const&, Matrix&)  (in prog_O0)        5623
+        std::__wrap_iter<int const*>::base[abi:ue170006]() const  (in prog_O0)        1392
+        saxpy(float, std::vector<float> const&, std::vector<float>&)  (in prog_O0)        1136
+        std::__wrap_iter<int const*>::operator++[abi:ue170006]()  (in prog_O0)        862
+        std::operator==[abi:ue170006]<int const*>(std::__wrap_iter<int const*> const&, std::__wrap_iter<int const*> const&)  (in prog_O0)        658
+        std::__wrap_iter<int const*>::operator*[abi:ue170006]() const  (in prog_O0)        560
+        std::operator!=[abi:ue170006]<int const*>(std::__wrap_iter<int const*> const&, std::__wrap_iter<int const*> const&)  (in prog_O0)        495
+        sum_int(std::vector<int> const&)  (in prog_O0)        131
+        std::__compressed_pair_elem<std::allocator<float>, 1, true>::__get[abi:ue170006]()  (in prog_O0)        28
+        std::vector<float>::__base_destruct_at_end[abi:ue170006](float*)  (in prog_O0)        18
+        std::__compressed_pair<float*>::second[abi:ue170006]()  (in prog_O0)        15
+        std::__wrap_iter<float*>::base[abi:ue170006]() const  (in prog_O0)        15
+        std::allocator_traits<std::allocator<float>>::destroy[abi:ue170006]<float, void>(std::allocator<float>&, float*)  (in prog_O0)        15
+        std::operator==[abi:ue170006]<float*>(std::__wrap_iter<float*> const&, std::__wrap_iter<float*> const&)  (in prog_O0)        15
+        std::__to_address[abi:ue170006]<float>(float*)  (in prog_O0)        13
+        std::allocator_traits<std::allocator<float>>::construct[abi:ue170006]<float, void>(std::allocator<float>&, float*)  (in prog_O0)        13
+        std::operator!=[abi:ue170006]<float*>(std::__wrap_iter<float*> const&, std::__wrap_iter<float*> const&)  (in prog_O0)        13
+        std::vector<float>::__alloc[abi:ue170006]()  (in prog_O0)        13
+        DYLD-STUB$$Lcg::next()  (in prog_O0)        11
+        Lcg::next()  (in prog_O0)        11
+        std::vector<float>::__construct_at_end(unsigned long)  (in prog_O0)        10
+        std::__wrap_iter<float const*>::base[abi:ue170006]() const  (in prog_O0)        9
+        std::__wrap_iter<float*>::operator*[abi:ue170006]() const  (in prog_O0)        9
+        std::allocator<float>::destroy[abi:ue170006](float*)  (in prog_O0)        9
+        std::__compressed_pair_elem<std::allocator<int>, 1, true>::__get[abi:ue170006]()  (in prog_O0)        8
+        std::__to_address[abi:ue170006]<int>(int*)  (in prog_O0)        8
+        std::__wrap_iter<float const*>::operator++[abi:ue170006]()  (in prog_O0)        8
+        std::__wrap_iter<float*>::operator++[abi:ue170006]()  (in prog_O0)        7
+        std::operator==[abi:ue170006]<int*>(std::__wrap_iter<int*> const&, std::__wrap_iter<int*> const&)  (in prog_O0)        7

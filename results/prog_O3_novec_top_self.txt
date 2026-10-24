@@ -1,0 +1,10 @@
+ 66.76%  prog_O3_novec`matmul_ikj(Matrix.const&,
+ 16.85%  prog_O3_novec`saxpy(float,.std::vector<float>
+ 15.97%  prog_O3_novec`sum_int(std::vector<int>.const&)
+  0.35%  prog_O3_novec`checksum(std::vector<float>.const&)
+  0.06%  libsystem_kernel`madvise
+  0.00%  prog_O3_novec`main
+  0.00%  libsystem_malloc`free_large
+  0.00%  libsystem_malloc`_szone_free
+  0.00%  dyld`start
+  0.00%  Thread_3343710.DispatchQueue_1:

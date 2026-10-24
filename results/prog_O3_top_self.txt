@@ -1,0 +1,10 @@
+ 59.42%  prog_O3`matmul_ikj(Matrix.const&,
+ 26.67%  prog_O3`saxpy(float,.std::vector<float>
+ 11.88%  prog_O3`sum_int(std::vector<int>.const&)
+  1.74%  prog_O3`checksum(std::vector<float>.const&)
+  0.29%  libsystem_kernel`madvise
+  0.00%  prog_O3`main
+  0.00%  libsystem_malloc`free_large
+  0.00%  libsystem_malloc`_szone_free
+  0.00%  dyld`start
+  0.00%  Thread_3344710.DispatchQueue_1:

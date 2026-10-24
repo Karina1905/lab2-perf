@@ -1,0 +1,30 @@
+Sort by top of stack, same collapsed (when >= 5):
+        matmul_ikj(Matrix const&, Matrix const&, Matrix&)  (in prog_O3_novec)        1178
+        saxpy(float, std::vector<float> const&, std::vector<float>&)  (in prog_O3_novec)        290
+        sum_int(std::vector<int> const&)  (in prog_O3_novec)        273
+        checksum(std::vector<float> const&)  (in prog_O3_novec)        6
+
+Binary Images:
+       0x102f7c000 -        0x102f7ffff +prog_O3_novec (0) <AAB33C58-1938-3328-8D46-ADAA1A5CFA6A> /Users/*/Downloads/*/prog_O3_novec
+       0x181744000 -        0x181793d83  libobjc.A.dylib (912.3) <76C8305C-4066-390C-8F3E-F0858D756AD8> /usr/lib/libobjc.A.dylib
+       0x181794000 -        0x18181c9db  dyld (1.0.0 - 1160.6) <8E1E5EE2-F89A-33A7-BB0A-74BDC06B7828> /usr/lib/dyld
+       0x18181d000 -        0x181821ff8  libsystem_blocks.dylib (90) <E9F1A3B9-AE38-3F4C-BF14-8A6E012AD36C> /usr/lib/system/libsystem_blocks.dylib
+       0x181822000 -        0x18186cfff  libxpc.dylib (2748.101.4) <C43D5322-9B69-37EE-B51E-45FDE5D81B5B> /usr/lib/system/libxpc.dylib
+       0x18186d000 -        0x181887fff  libsystem_trace.dylib (1510.100.36) <681EBF40-B321-364A-88EA-04AB45E3DA66> /usr/lib/system/libsystem_trace.dylib
+       0x181888000 -        0x181930fd7  libcorecrypto.dylib (1638.100.62) <95C1D199-1B36-32B2-9BE7-5723A58D0D96> /usr/lib/system/libcorecrypto.dylib
+       0x181931000 -        0x18196dff7  libsystem_malloc.dylib (521.100.59) <B36EAAD5-558D-39E8-AB0D-FD87F2EF154B> /usr/lib/system/libsystem_malloc.dylib
+       0x18196e000 -        0x1819b5fff  libdispatch.dylib (1477.100.9) <7F973554-8168-35BF-AE86-2E9123E81BF7> /usr/lib/system/libdispatch.dylib
+       0x1819b6000 -        0x1819b8fff  libsystem_featureflags.dylib (86) <D8AF5585-B9E4-38C0-B48B-CFD5C13DEB82> /usr/lib/system/libsystem_featureflags.dylib
+       0x1819b9000 -        0x181a37ff3  libsystem_c.dylib (1592.100.35) <49477E07-E77B-332F-B98D-79CA210A866D> /usr/lib/system/libsystem_c.dylib
+       0x181a38000 -        0x181ac4ff7  libc++.1.dylib (1700.255) <08C4329E-407F-310B-B037-75A8020B2963> /usr/lib/libc++.1.dylib
+       0x181ac5000 -        0x181ae0ffb  libc++abi.dylib (1700.255) <4FED965B-18AD-3A4F-8928-1F0A3C35345F> /usr/lib/libc++abi.dylib
+       0x181ae1000 -        0x181b1bffb  libsystem_kernel.dylib (10063.101.15) <1889CE0A-52E7-3122-8907-81AF920AC472> /usr/lib/system/libsystem_kernel.dylib
+       0x181b1c000 -        0x181b28fff  libsystem_pthread.dylib (519.101.1) <45239F06-CC53-36D0-9933-7776AC7EA2FA> /usr/lib/system/libsystem_pthread.dylib
+       0x181b29000 -        0x181b4eff7  libdyld.dylib (1160.6) <72199A80-9C55-376D-8ECF-EE68AFA57B7A> /usr/lib/system/libdyld.dylib
+       0x181b4f000 -        0x181b56fe7  libsystem_platform.dylib (316.100.10) <031F3E8C-5227-3138-A444-68174C1C28CF> /usr/lib/system/libsystem_platform.dylib
+       0x181b57000 -        0x181b83ffb  libsystem_info.dylib (583.0.1) <615EAFA2-4446-3994-89E9-858A0552F1B8> /usr/lib/system/libsystem_info.dylib
+       0x184f3f000 -        0x184f49ff3  libsystem_darwin.dylib (1592.100.35) <8DB1E11F-85AB-3699-AD96-228BE7D8C715> /usr/lib/system/libsystem_darwin.dylib
+       0x1853b5000 -        0x1853c5fff  libsystem_notify.dylib (317.100.2) <EDCEB984-2FC8-3EB5-9016-3453A3DDEE8F> /usr/lib/system/libsystem_notify.dylib
+       0x18720e000 -        0x187227ffb  libsystem_networkextension.dylib (1838.101.1) <EBACF63D-8B18-37FF-8952-85FD99605BD7> /usr/lib/system/libsystem_networkextension.dylib
+       0x1872a0000 -        0x1872b7fff  libsystem_asl.dylib (398) <B8B21C7C-4530-3EA2-AB35-BA98B82F33D0> /usr/lib/system/libsystem_asl.dylib
+       0x188c8e000 -        0x188c96ff3  libsystem_symptoms.dylib (1871.100.22) <372ACDF1-29E7-34DA-B035-BD7671EB5A8B> /usr/lib/system/libsystem_symptoms.dylib
